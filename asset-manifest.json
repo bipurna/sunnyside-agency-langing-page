@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sunnyside-agency-langing-page/static/css/main.c458046e.css",
+    "main.css": "/sunnyside-agency-langing-page/static/css/main.971c3662.css",
     "main.js": "/sunnyside-agency-langing-page/static/js/main.920df2af.js",
     "static/media/image-header.jpg": "/sunnyside-agency-langing-page/static/media/image-header.9167cda0c72b56b2cda5.jpg",
     "static/media/image-gallery-milkbottles.jpg": "/sunnyside-agency-langing-page/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
@@ -18,11 +18,11 @@
     "static/media/icon-facebook.svg": "/sunnyside-agency-langing-page/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
     "static/media/icon-arrow-down.svg": "/sunnyside-agency-langing-page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "/sunnyside-agency-langing-page/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
-    "main.c458046e.css.map": "/sunnyside-agency-langing-page/static/css/main.c458046e.css.map",
+    "main.971c3662.css.map": "/sunnyside-agency-langing-page/static/css/main.971c3662.css.map",
     "main.920df2af.js.map": "/sunnyside-agency-langing-page/static/js/main.920df2af.js.map"
   },
   "entrypoints": [
-    "static/css/main.c458046e.css",
+    "static/css/main.971c3662.css",
     "static/js/main.920df2af.js"
   ]
 }
