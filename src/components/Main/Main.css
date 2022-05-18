@@ -1,0 +1,224 @@
+.Main{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+
+}
+.landing{
+    width: 100%;
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+}
+.desktop{
+    display: none;
+}
+.landing img{
+    width: 100%;
+}
+.we-are-creative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    
+
+}
+.we-are-creative h1{
+    font-family: var(--Font-Family-Fraunces);
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--White);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.arrow{
+    width: 30px;
+    height: 110px;
+    margin-top: 30px;
+}
+.arrow img{
+    width: 100%;
+    height: 100%;
+}
+
+.egg{
+    max-width: 100%;
+}
+.egg img{
+    width: 100%;
+}
+.desc{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    margin: 25px;
+
+}
+.desc h1,h4{
+    font-weight: 900;
+    font-family: var(--Font-Family-Fraunces);
+}
+.desc p{
+    line-height: 1.5;
+    opacity: .5;
+}
+.desc h4{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.glass img{
+    width: 100%;
+    margin-top: 40px;
+
+}
+.cherry {
+    position: relative;
+}
+.cherry img{
+    width: 100%;
+}
+.design{
+    position: absolute;
+    bottom: 10px;
+}
+.cherry p{
+    font-size: 15px;
+}
+.testimonials #head{
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 50%;
+    font-weight: 700;
+    margin-top: 60px;
+    
+}
+.gallery{
+   margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gallery img{
+    max-width: 100%;
+}
+
+
+
+.footer{
+    background-color: #90d4c5;
+    width: 100%;
+    height: 345px;
+    padding:40px;
+
+}
+.footer h1{
+    padding:20px 0;
+    text-align: center;
+    color: var(--Dark-desaturated-cyan);
+}
+.footer ul{
+    color:var(--Dark-moderate-cyan);
+    padding: 40px 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 20px;
+}
+@media (min-width:600px) {
+    .landing{
+        width: 100%;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+        margin-top: 0;
+    }
+    .we-are-creative{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .we-are-creative h1{
+        margin-top: 90px;
+        font-weight: 900;
+        word-spacing: 5px;
+    }
+    .arrow{
+        margin-top:90px;
+    }
+    .section-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        direction: rtl;
+             
+    }
+    .section-wrapper-unreversed{
+        display: grid;
+        direction: ltr;
+    }
+    .glass img{
+        margin: 0;
+    }
+    .desc{
+        display: flex;
+        align-items: flex-start;
+        padding: 100px;
+        justify-content: center;
+        margin: 0;
+        
+    }
+    .desc h1{
+        font-weight: 900;
+        max-width: 350px;
+        text-align: start;
+        
+        
+    }
+    .desc p{
+        text-align: start;
+        max-width: 450px;
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        padding: 150px;
+    }
+    .testimonials-wrapper{
+        display: flex;
+        gap:20px;
+    }
+    .gallery{
+        margin-top: 50px;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+     .gallery img{
+        width: 100%;
+     }
+     .footer{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .footer ul{
+         width: 300px;
+     }
+     .social-media{
+         width: 300px;
+     }
+
+    
+}

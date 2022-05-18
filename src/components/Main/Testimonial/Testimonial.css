@@ -1,0 +1,29 @@
+.Testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+
+}
+.Testimonial img{
+    width: 70px;
+    border-radius: 50%;
+    margin-top:60px;
+}
+.Testimonial h5{
+    font-weight: ;
+}
+.person-detail p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 30%;
+}
+@media (min-width:600px) {
+    .Testimonial{
+        margin: 0;
+        padding: 0;
+    }
+    .Testimonial p{
+        text-align: center;
+    }
+}
