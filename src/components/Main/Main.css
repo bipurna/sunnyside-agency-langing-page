@@ -87,7 +87,7 @@
 }
 .design{
     position: absolute;
-    bottom: 10px;
+    bottom:10px;
 }
 .cherry p{
     font-family: var(--Font-Family-Barlow);
@@ -178,7 +178,7 @@
     }
     .desc{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         padding: 100px;
         margin: 0;
         font-family: var(--Font-Family-Fraunces);
@@ -205,6 +205,8 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        position: absolute;
+        bottom: -50px;
     }
     .design p{
         font-family: var(--Font-Family-Barlow);
